@@ -48,7 +48,7 @@ const SidebarToggleButton: React.FC<{
       title={isOpen ? "Collapse sidebar" : "Expand sidebar"}
       aria-label={isOpen ? "Collapse sidebar" : "Expand sidebar"}
       className={`
-                hidden lg:flex fixed top-10 z-40 items-center justify-center 
+                lg:flex fixed top-10 z-40 items-center justify-center 
                 w-6 h-10 bg-[var(--bg-secondary)] text-[var(--text-secondary)] 
                 border-y border-r border-[var(--border-primary)] rounded-r-lg 
                 hover:bg-[var(--bg-tertiary)] 
